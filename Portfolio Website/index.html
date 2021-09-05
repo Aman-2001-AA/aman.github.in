@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!-- AMAN ANAND 2021 -->
+<html>
+     <head>	 
+	        <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	        <meta name="description" content="Find AMAN ANAND on the internet.">
+	        <meta name="keywords" content="AMAN ANAND, aman anand">
+        	<meta name="author" content="Aman Anand">
+	        <meta name="robots" content="index,follow">
+	        <meta property="og:title" content="Personal Website"/>
+          <meta property="og:type" content="website"/>
+	<title>AMAN ANAND</title>
+	<link rel="icon" type="image/jpg" href="icons/aa.png">
+	<link rel="stylesheet" href="main.css">
+</head>
+   <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="description" content="Find AMAN ANAND on the internet.">
+        <meta name="keywords" content="AMAN ANAND, aman anand">
+        <meta name="author" content="AMAN ANAND">
+        <meta name="robots" content="index,follow">
+        <title>AMAN ANAND</title>
+        <link rel="icon" type="image/jpg" href="icons/aa.jpg">
+        <link rel="stylesheet" href="main.css">
+   </head>
+
+     <div class="well" id="well">
+     <div id="intro" class="panel">
+   	 <div class="intro-content">
+   	 <div class="row">
+
+		<!-- END SENTRY -->
+				 <script type="text/javascript">
+				        var initialTime = new Date().getTime();
+				      (function () {
+				        var appName = 'marketing-template-viewer';
+				        window.appStartLoadTime = window.performance && window.performance.now();
+				        window.fedops = window.fedops || {};
+				        window.fedops.apps = window.fedops.apps || {};
+				        window.fedops.apps[appName] = { startLoadTime: window.appStartLoadTime };
+				      })();
+				    </script>
+
+					 <script>
+					 	 window.__INITIAL_STATE__ = {"viewMode":"desktop, mobile, tablet","template":{"title":"Personal Website"}}
+					 	 window.__DEVICE__ = "desktop, mobile, tablet";
+		         window.__CONSENT_POLICY__ = {"essential":true,"functional":true,"analytics":true,"advertising":false,"dataToThirdParty":false};
+	         </script>
+
+	   			<h5>Hello World.</h5>
+	   			<h1>I'm AMAN ANAND.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Artist</span>
+	   				<span>Developer</span>
+	   				<span>Wanderer</span>
+				    <span>Explorer</span>
+	   			</p>
+
+   		</div>
+
+   	</div> <!-- /intro-content -->
+         	<div class="stars"></div>
+	        <div class="twinkling"></div>
+             	<ul class="intro-social">
+			        <li><a target="_blank" href="https://www.facebook.com/ajax.raw.3"><img src="icons/fb.png" height="50px"></a></li>
+	           	    <li><a target="_blank" href="https://www.instagram.com/amananand1533"><img src="icons/ig.png" height="50px"></a></li>
+	           	    <li><a target="_blank" href="https://twitter.com/AmanAna28977916"><img src="icons/tt.png" height="50px"></a></li>
+		            <li><a target="_blank" href="https://github.com/Aman-2001-AA"><img src="icons/git.png" height="50px"></a></li>
+		            <li><a target="_blank" href="https://www.linkedin.com/in/aman-anand-b5478b14a/"><img src="icons/in.png" height="50px"></a></li>
+				  
+
+         </ul> <!-- /intro-social -->
+
+  </div> <!-- /intro -->
+       <div class="panel" id="about">
+	     <div class="about">
+		   <div class="about-overlay"></div>
+		   <div class="pic-container">
+			 <img src="/images/pic04.jpg" alt="my picture" id="dp">
+			 <div class="description">
+			 <h2 style="margin: 0;">About Me</h2>
+				  <p>I am Aman Anand, I'm 20 years old from Bangalore, India.</p>
+
+					<p>I am an Energetic and Enthusiastic Individual with a lot of intrest and passion towards life. I am pursuing my Under-Graduation in B.tech in Computer Science and Engineering from Dayananda Sagar University, Bangalore. I have a predilection for design and enjoy working on projects where approaching design and development as co-dependent processes can lead to smarter solutions and a better overall product experience for fellow humans.</p>
+
+					<p>Throughout my life, I have used the Visual arts as a way to interpret and understand the world around me. In turn, guiding my aspirations to become a successful man in life. I am looking forward to studying a pilot training course as I aspire to become a Commercial Pilot. My aspiration `is to have a career in Commercial Aviation as a Commercial Pilot.</p>
+
+          <p>I truly believe that "A PROBLEM IS A CHANCE FOR YOU TO DO YOUR BEST IN LIFE".</p>
+		    	</div>
+		   </div>
+
+ 	   </div>
+  </div>
+
+  </div>
+
+ <script>
+	    (function() {
+		     "use strict";
+		    /*[pan and well CSS scrolls]*/
+		var pnls = document.querySelectorAll('.panel').length,
+				scdir, hold = false;
+
+		function _scrollY(obj) {
+			var slength, plength, pan, step = 100,
+					vh = window.innerHeight / 100,
+					vmin = Math.min(window.innerHeight, window.innerWidth) / 100;
+			if ((this !== undefined && this.id === 'well') || (obj !== undefined && obj.id === 'well')) {
+				pan = this || obj;
+				plength = parseInt(pan.offsetHeight / vh);
+			}
+			if (pan === undefined) {
+				return;
+			}
+			plength = plength || parseInt(pan.offsetHeight / vmin);
+			slength = parseInt(pan.style.transform.replace('translateY(', ''));
+			if (scdir === 'up' && Math.abs(slength) < (plength - plength / pnls)) {
+				slength = slength - step;
+			} else if (scdir === 'down' && slength < 0) {
+				slength = slength + step;
+			} else if (scdir === 'top') {
+				slength = 0;
+			}
+			if (hold === false) {
+				hold = true;
+				pan.style.transform = 'translateY(' + slength + 'vh)';
+				setTimeout(function() {
+					hold = false;
+				}, 1000);
+			}
+			console.log(scdir + ':' + slength + ':' + plength + ':' + (plength - plength / pnls));
+		}   
+		
+		/*[swipe detection on touchscreen devices]*/
+		function _swipe(obj) {
+			var swdir,
+					sX,
+					sY,
+					dX,
+					dY,
+					threshold = 100,
+					/*[min distance traveled to be considered swipe]*/
+					slack = 50,
+					/*[max distance allowed at the same time in perpendicular direction]*/
+					alT = 500,
+					/*[max time allowed to travel that distance]*/
+					elT, /*[elapsed time]*/
+					stT; /*[start time]*/
+			obj.addEventListener('touchstart', function(e) {
+				var tchs = e.changedTouches[0];
+				swdir = 'none';
+				sX = tchs.pageX;
+				sY = tchs.pageY;
+				stT = new Date().getTime();
+				//e.preventDefault();
+			}, false);
+
+			obj.addEventListener('touchmove', function(e) {
+				e.preventDefault(); /*[prevent scrolling when inside DIV]*/
+			}, false);
+
+			obj.addEventListener('touchend', function(e) {
+				var tchs = e.changedTouches[0];
+				dX = tchs.pageX - sX;
+				dY = tchs.pageY - sY;
+				elT = new Date().getTime() - stT;
+				if (eT <= alT) {
+					if (Math.abs(dX) >= threshold && Math.abs(dY) <= slack) {
+						swdir = (dX < 0) ? 'left' : 'right';
+					} else if (Math.abs(dY) >= threshold && Math.abs(dX) <= slack) {
+						swdir = (dY < 0) ? 'up' : 'down';
+					}
+					if (obj.id === 'well') {
+						if (swdir === 'up') {
+							scdir = swdir;
+							_scrollY(obj);
+						} else if (swdir === 'down' && obj.style.transform !== 'translateY(0)') {
+							scdir = swdir;
+							_scrollY(obj);
+
+						}
+						e.stopPropagation();
+					}
+				}
+			}, false);
+		}
+		/*[assignments]*/
+		var well = document.getElementById('well');
+		well.style.transform = 'translateY(0)';
+		well.addEventListener('wheel', function(e) {
+			if (e.deltaY < 0) {
+				scdir = 'down';
+			}
+			if (e.deltaY > 0) {
+				scdir = 'up';
+			}
+			e.stopPropagation();
+		});
+		well.addEventListener('wheel', _scrollY);
+		_swipe(well);
+		var tops = document.querySelectorAll('.top');
+		for (var i = 0; i < tops.length; i++) {
+			tops[i].addEventListener('click', function() {
+				scdir = 'top';
+				_scrollY(well);
+			});
+		}
+	})();
+</script>
+
+<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+      <!--  Controls are self-explanatory. Order can be changed. -->
+
+                   <div class="pswp__counter"></div>
+
+                   <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                   <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                   <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                   <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+    </body>
+</html>
